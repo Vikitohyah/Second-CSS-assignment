@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+}
+
+.wine{
+    background-color: darkred;
+    border-radius: 5px;
+    margin: 30px 8px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+#keyboard{
+    background-image: url(./pics/1.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(124, 31, 31);
+}
+
+.wheat-field{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+#img-caption{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#info-list{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+#date{
+    font-weight: 700;
+}
+
+.info-list{
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.quote{
+    margin-top: 50px;
+    font-style: italic;
+    max-width: 550px;
+    margin-left: 425px;
+}
+
+#link{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#tribute-link{
+    text-decoration: underline;
+    color: rgb(66, 66, 212);
+}
+
+#tribute-link:visited{
+    color: rgb(86, 86, 133);
+}
